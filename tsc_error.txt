@@ -1,0 +1,2 @@
+src/app/api/auth/register/route.ts(4,20): error TS2307: Cannot find module '@/lib/db' or its corresponding type declarations.
+src/app/api/auth/register/route.ts(41,53): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
