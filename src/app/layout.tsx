@@ -26,8 +26,7 @@ export const metadata: Metadata = {
 };
 
 import { Analytics } from "@vercel/analytics/react";
-
-import { Analytics } from "@vercel/analytics/react";
+import { JsonLd } from "@/components/json-ld";
 
 export default function RootLayout({
   children,
@@ -43,6 +42,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Analytics />
+        <JsonLd />
       </body>
     </html>
   );
