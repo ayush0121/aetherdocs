@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   }
 };
 
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { JsonLd } from "@/components/json-ld";
 
 export default function RootLayout({
