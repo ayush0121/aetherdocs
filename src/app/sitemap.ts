@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     // Update this to your production domain
-    const baseUrl = 'https://ayush0121-aetherdocs-vph9-d2du8g266-ayush0121s-projects.vercel.app';
+    const baseUrl = 'https://aetherdocs-mu.vercel.app';
 
     // List of all static routes
     const routes = [
