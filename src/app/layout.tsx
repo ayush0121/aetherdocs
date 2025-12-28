@@ -26,6 +26,7 @@ export const metadata: Metadata = {
 };
 
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { JsonLd } from "@/components/json-ld";
 
 export default function RootLayout({
@@ -42,6 +43,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Analytics />
+        <SpeedInsights />
         <JsonLd />
       </body>
     </html>

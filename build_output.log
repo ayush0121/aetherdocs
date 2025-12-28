@@ -1,0 +1,60 @@
+
+> pdfmaking@0.1.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+▲ Next.js 16.1.1 (Turbopack)
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 18.1s
+  Running TypeScript ...
+  Collecting page data using 1 worker ...
+  Generating static pages using 1 worker (0/30) ...
+  Generating static pages using 1 worker (7/30) 
+  Generating static pages using 1 worker (14/30) 
+  Generating static pages using 1 worker (22/30) 
+✓ Generating static pages using 1 worker (30/30) in 369.2ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /api/auth/[...nextauth]
+├ ƒ /api/auth/register
+├ ƒ /chat-pdf
+├ ƒ /compress-pdf
+├ ƒ /edit-pdf
+├ ƒ /excel-to-pdf
+├ ƒ /html-to-pdf
+├ ƒ /jpg-to-pdf
+├ ƒ /login
+├ ƒ /merge-pdf
+├ ƒ /p2p-share
+├ ƒ /pdf-to-excel
+├ ƒ /pdf-to-jpg
+├ ƒ /pdf-to-powerpoint
+├ ƒ /pdf-to-word
+├ ƒ /powerpoint-to-pdf
+├ ƒ /protect-pdf
+├ ƒ /redact-pdf
+├ ○ /robots.txt
+├ ƒ /rotate-pdf
+├ ƒ /sign-pdf
+├ ƒ /signup
+├ ○ /sitemap.xml
+├ ƒ /split-pdf
+├ ƒ /unlock-pdf
+├ ƒ /watermark-pdf
+└ ƒ /word-to-pdf
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
